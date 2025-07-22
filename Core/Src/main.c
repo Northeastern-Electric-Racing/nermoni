@@ -138,6 +138,10 @@ int main(void)
       printf("V%d: %d\n", i, adc1_buf[i]);
     }
 
+    printf("%d,%d,%d,%d,%d,%d,%d,%d,%d,%d\n", 
+      adc1_buf[0], adc1_buf[1], adc1_buf[2],
+      adc1_buf[3], adc1_buf[4], adc1_buf[5], adc1_buf[6], adc1_buf[7], adc1_buf[8], adc1_buf[9]);
+
     HAL_Delay(25);
 
 
